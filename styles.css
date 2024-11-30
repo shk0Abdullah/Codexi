@@ -1,3 +1,40 @@
+@media (max-width: 767px) {
+    
+    body {
+        padding: 15px;
+        /* Add padding for mobile */
+    }
+
+    .home__para {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .navbar-nav {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-toggler {
+        padding-right: 10px;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .home__img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .social-links {
+        font-size: 16px;
+        /* Adjust font size for mobile */
+    }
+}
+
 .head-center{
     display: flex;
     justify-content: center;
